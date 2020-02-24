@@ -5,7 +5,7 @@ A minimal Node.js server for shared frontend development using the browser as a 
  * mkdir myProject
  * cd myProject
  * npm install minimal-server-for-frontend-dev
- * node node-modules/minimal-server-for-frontend-dev/minimalSelfHoster.js 
+ * node node_modules/minimal-server-for-frontend-dev/minimalSelfHoster.js 
  
 If you do those four steps, the terminal output tells you what to type into your browser address bar, and that's the last time you need to look at your terminal for the entire development session!
 In the browser console, you can start developing a frontend-only app with the code() function.
