@@ -10,7 +10,7 @@ console.info(`In browser: ${require('os').hostname()}:${require('http').createSe
 			if (name.endsWith('.css')) {
 				code.css.push(`<style data-id="${name}">`, `  ${content}`, `</style>`);
 			} else if (name.endsWith('.html')) {
-				code.html.push(`<!-- start ${name} -->`, content, `<!-- end ${name} -->`);
+				code.html.push(`<!-- ${name} -->`, content`);
 			} else if (name.endsWith('.js')) {
 				code.js.push(`<script data-id="${name}">`, content, `</script>`)
 			}

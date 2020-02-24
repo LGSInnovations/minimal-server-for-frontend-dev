@@ -4,8 +4,8 @@ A minimal Node.js server for shared frontend development using the browser as a 
 ## Usage
  * mkdir myProject
  * cd myProject
- * git clone https://github.com/LGSInnovations/minimal-server-for-frontend-dev.git
- * node minimal-server-for-frontend-dev/minimalSelfHoster.js 
+ * npm install minimal-server-for-frontend-dev
+ * node node-modules/minimal-server-for-frontend-dev/minimalSelfHoster.js 
  
 If you do those four steps, the terminal output tells you what to type into your browser address bar, and that's the last time you need to look at your terminal for the entire development session!
 In the browser console, you can start developing a frontend-only app with the code() function.
@@ -30,4 +30,4 @@ Example:
       });
     `);
 
-This would result in these files being created: myProject/public/box.html, myProject/public/box.css, myProject/public/spinBox.js . . . but as a new frontend developer, you don't need to think about that. The code is all discoverable as part of one page in the browser. To modify from there, just copy the outerhtml into the console window, edit it to be a code() call, and hit enter to see the page immediately refresh with the new code delivered from the server.
+This would result in these files being created: myProject/public/box.html, myProject/public/box.css, myProject/public/spinBox.js . . . but as a new frontend developer, you don't need to think about that. The code is all discoverable as part of one page in the browser. To modify from there, just copy the outerhtml into the console window, edit it to be a code() call, and hit enter to see the page immediately refresh with the new code delivered from the server. Note that files are loaded in alphabetical order, so you may want to name files like 1a-top-partial.html, 2a-middle-partial.html, 9a-bottom-partial.html.
