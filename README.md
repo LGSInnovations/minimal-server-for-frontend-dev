@@ -1,5 +1,5 @@
 # minimal-server-for-frontend-dev
-A minimal Node.js server for shared frontend development using the browser as a development environment. (Minimal here means just a page of server+frontend code that saves frontend snippets and serves them immediately.)
+A minimal Node.js server for shared frontend development using the browser as a development environment. (Minimal here means just a page of server+frontend code that saves frontend snippets and serves them immediately.) This is mostly for a quick setup to help new students of JavaScript to have a playground for small frontend-only projects.
 
 ## Usage
  * mkdir myProject
