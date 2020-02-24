@@ -1,6 +1,6 @@
 {
   "name": "minimal-server-for-frontend-dev",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A minimal Node.js server for shared frontend development using the browser as a development environment",
   "main": "minimalSelfHoster.js",
   "scripts": {
