@@ -30,4 +30,4 @@ Example:
       });
     `);
 
-This would result in these files being created: myProject/public/box.html, myProject/public/box.css, myProject/public/spinBox.js . . . but as a new frontend developer, you don't need to think about that. The code is all discoverable as part of one page in the browser. To modify from there, just copy the outerhtml into the console window, edit it to be a code() call, and hit enter to have see the page immediately refresh with the new code delivered from the server.
+This would result in these files being created: myProject/public/box.html, myProject/public/box.css, myProject/public/spinBox.js . . . but as a new frontend developer, you don't need to think about that. The code is all discoverable as part of one page in the browser. To modify from there, just copy the outerhtml into the console window, edit it to be a code() call, and hit enter to see the page immediately refresh with the new code delivered from the server.
