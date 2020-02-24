@@ -1,0 +1,19 @@
+{
+  "name": "minimal-server-for-frontend-dev",
+  "version": "1.0.0",
+  "description": "A minimal Node.js server for shared frontend development using the browser as a development environment",
+  "main": "minimalSelfHoster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LGSInnovations/minimal-server-for-frontend-dev.git"
+  },
+  "author": "marcusreese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LGSInnovations/minimal-server-for-frontend-dev/issues"
+  },
+  "homepage": "https://github.com/LGSInnovations/minimal-server-for-frontend-dev#readme"
+}
