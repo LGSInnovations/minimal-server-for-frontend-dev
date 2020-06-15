@@ -30,6 +30,6 @@ Example:
       });
     `);
 
-This would result in these files being created: myProject/public/box.html, myProject/public/box.css, myProject/public/spinBox.js . . . but as a new frontend developer, you don't need to think about that. The code is all discoverable as part of one page in the browser. To modify from there, just copy the outerhtml into the console window, edit it to be a code() call, and hit enter to see the page immediately refresh with the new code delivered from the server. Note that files are loaded in alphabetical order, so you may want to name files like 1a-top-partial.html, 2a-middle-partial.html, 9a-bottom-partial.html.
+This would result in these files being created: myProject/public/box.html, myProject/public/box.css, myProject/public/spinBox.js . . . but as a frontend developer, you may not need to think about that, because the code is all discoverable as part of one page in the browser. To modify from there, just copy the outerhtml into the console window, edit it to be a code() call, and hit enter to see the page immediately refresh with the new code delivered from the server. Alternatively, if you prefer to use some editor like VSCode, you can just save a file and immediately refresh the browser (no need to kill and restart the server). Note that files are loaded in alphabetical order, so you may want to name files like 1a-top-partial.html, 2a-middle-partial.html, 9a-bottom-partial.html.
 
 And example of a project that is using this: https://github.com/LGSInnovations/filemine
